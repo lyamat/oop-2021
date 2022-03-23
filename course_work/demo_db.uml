@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>DATABASE</ID>
+  <OriginalElement>16781828-4620-4533-b629-6675c4596262.SCHEMA:demo_db</OriginalElement>
+  <nodes>
+    <node x="197.0" y="0.0">16781828-4620-4533-b629-6675c4596262.TABLE:demo_db.trip</node>
+    <node x="24.0" y="217.0">16781828-4620-4533-b629-6675c4596262.TABLE:demo_db.order</node>
+    <node x="0.0" y="0.0">16781828-4620-4533-b629-6675c4596262.TABLE:demo_db.account</node>
+    <node x="165.0" y="217.0">16781828-4620-4533-b629-6675c4596262.TABLE:demo_db.logs</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="16781828-4620-4533-b629-6675c4596262.TABLE:demo_db.order" target="16781828-4620-4533-b629-6675c4596262.TABLE:demo_db.account" relationship="REFERENCES">
+      <point x="0.0" y="-50.5" />
+      <point x="0.0" y="83.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic" zoom="1.0" showDependencies="false" x="168.5" y="221.0" />
+  <SelectedNodes>
+    <node>16781828-4620-4533-b629-6675c4596262.TABLE:demo_db.logs</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Columns</Category>
+    <Category>Key columns</Category>
+    <Category>Virtual foreign keys</Category>
+  </Categories>
+</Diagram>
+
